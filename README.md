@@ -40,7 +40,7 @@ The GA successfully "sacrificed" layers **L5, L6, and L10**, identifying high se
 ## Repository Structure
 1. `notebooks/`:
 * **Project Notebook**: Contains the full Python implementation, the GA loop, and model evaluation metrics.
-3. `reports/`:
+2. `reports/`:
 * **Complete Project Report (PDF)**: Detailed theoretical framework and empirical analysis.
 * **Final Presentation (PPT)**: Summary of results and visual performance curves.
 
