@@ -15,7 +15,6 @@ Standard model optimization focuses on weight training in continuous spaces. How
 
 Naive approaches (uniform pruning) often hit what is known as the **"Cliff of Death"**—a threshold (typically 30-35% for GPT-2) where model coherence collapses exponentially. Our approach treats the architecture as a dynamic system to bypass this limit.
 
-
 ## Technical Implementation
 
 ### Evolutionary Strategy
@@ -39,9 +38,8 @@ The goal was to determine the optimal pruning rate vector  across the 12 layers 
 The GA successfully "sacrificed" layers **L5, L6, and L10**, identifying high semantic redundancy or "dead" neurons. Conversely, it "protected" initial layers (**L0, L2, L4**) essential for processing input embeddings and syntax.
 
 ## Repository Structure
-
-* `notebooks/`: Contains the full Python implementation, the GA loop, and model evaluation metrics.
-* `reports/`:
+`notebooks/`: Contains the full Python implementation, the GA loop, and model evaluation metrics.
+`reports/`:
 * **Complete Project Report (PDF)**: Detailed theoretical framework and empirical analysis.
 * **Final Presentation (PPT)**: Summary of results and visual performance curves.
 
